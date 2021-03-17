@@ -11,16 +11,13 @@
     "draftAndPublish": false
   },
   "attributes": {
+    "name": { "type": "string" },
     "email": {
       "type": "string"
     },
     "status": {
       "type": "enumeration",
-      "enum": [
-        "seen",
-        "contacted",
-        "ignored"
-      ]
+      "enum": ["seen", "contacted", "ignored"]
     },
     "location": {
       "type": "string"
